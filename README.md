@@ -9,6 +9,9 @@ It transforms raw aircraft state observations into reconstructed **4D trajectori
 The project focuses on the engineering problem of turning noisy, irregular aircraft telemetry into structured spatial-temporal intelligence.
 
 ---
+<img width="1536" height="1024" alt="AeroFlux Airspace Intelligence Pipeline" src="https://github.com/user-attachments/assets/1705b07a-681b-4d64-a48f-614a947a6f27" />
+
+---
 
 ## What AeroFlux Does
 
@@ -104,7 +107,9 @@ OpenSky historical states
 ```
 
 ---
+<img width="2098" height="749" alt="AeroFlux Pipeline Flow Infographic" src="https://github.com/user-attachments/assets/2512334e-9db4-43bd-befa-7e7d379c6bdd" />
 
+---
 ## Core Engineering
 
 ### 1. 4D Trajectory Reconstruction
@@ -383,33 +388,6 @@ Provides a hierarchical spatial index that turns latitude/longitude observations
 
 Provides a strong tabular regression model for short-horizon congestion forecasting while keeping the feature engineering explicit and inspectable.
 
----
-
-## Project Structure
-
-A representative repository structure is:
-
-```text
-aeroflux/
-│
-├── README.md
-├── requirements.txt
-│
-├── notebooks/
-│   ├── bronze/
-│   ├── silver/
-│   ├── gold/
-│   ├── trajectory/
-│   ├── holding/
-│   └── forecasting/
-│
-├── docs/
-│   └── architecture/
-│
-└── ...
-```
-
-The exact notebook/file organization may differ depending on the Databricks workspace layout.
 
 ---
 
