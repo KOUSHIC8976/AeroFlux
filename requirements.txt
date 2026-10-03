@@ -1,0 +1,13 @@
+# AeroFlux Python dependencies
+#
+# Execution environment:
+#   Databricks + Apache Spark + Delta Lake
+#
+# Spark and Delta Lake are provided by the Databricks runtime.
+# Standard-library modules such as os are not listed.
+
+numpy
+pandas
+scikit-learn
+xgboost
+h3
